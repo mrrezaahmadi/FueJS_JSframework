@@ -8,10 +8,26 @@ document.getElementById("root").append(
 				{ className: "route" },
 				FueJS.createElement("p", {}, "ورود")
 			), // route section
-			FueJS.createElement("p", {}, "ورود به حساب کاربری"),
 			FueJS.createElement(
 				"p",
-				{},
+				{
+					style: {
+						"font-weight": "500",
+						"font-size": "30px",
+					},
+				},
+				"ورود به حساب کاربری"
+			),
+			FueJS.createElement(
+				"p",
+				{
+					style: {
+						"font-weight": "lighter",
+						"font-size": "16px",
+						color: "#9E9E9E",
+						"margin-top": "-10px",
+					},
+				},
 				"جهت ورود به برنامه نام کاربری و رمز عبور را وارد کنید"
 			),
 			FueJS.createElement("div", { className: "inputs" }, [
